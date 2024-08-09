@@ -35,11 +35,11 @@ Este projeto visa criar um assistente de personal trainer automatizado que ajuda
 
 A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
 
-| **Imagem**                                                                  | **Biotipo**   | **Descrição**                                                                         |
-| --------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------- |
-| <img src="../prompt-project/assets/ectomorph.jpg" width="50%" height="50%"> | **Ectomorfo** | Corpo mais magro, difícil ganhar peso e massa muscular.                               |
-| <img src="../prompt-project/assets/mesomorph.jpg" width="50%" height="50%"> | **Mesomorfo** | Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura. |
-| <img src="../prompt-project/assets/endmorph.jpg" width="50%" height="50%">  | **Endomorfo** | Corpo com tendência a acumular gordura, maior dificuldade em perder peso.             |
+| **Imagem**                                                        | **Biotipo**   | **Descrição**                                                                         |
+| ----------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------- |
+| <img src=".github/assets/ectomorph.jpg" width="50%" height="50%"> | **Ectomorfo** | Corpo mais magro, difícil ganhar peso e massa muscular.                               |
+| <img src=".github/assets/mesomorph.jpg" width="50%" height="50%"> | **Mesomorfo** | Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura. |
+| <img src=".github/assets/endmorph.jpg" width="50%" height="50%">  | **Endomorfo** | Corpo com tendência a acumular gordura, maior dificuldade em perder peso.             |
 
 > **Nota:** Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
 
