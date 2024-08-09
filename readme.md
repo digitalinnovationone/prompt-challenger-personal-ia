@@ -21,7 +21,7 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 - [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
 - [🛠️ Regras de negócio](#️-regras-de-negócio)
 - [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt Proposto](#-prompt-proposto)
+- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
 
 ---
 
@@ -49,11 +49,11 @@ A primeira regra para personalizar o treino é determinar o biotipo corporal do 
 
 A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
-| **Imagem**                                                               | **Dias por Semana** | **Tipo de Treino Sugerido** |
-| ------------------------------------------------------------------------ | ------------------- | --------------------------- |
-| <img src="../prompt-project/assets/calendar.png" width="50" height="50"> | 1 dia               | Treino Full Body            |
-| <img src="../prompt-project/assets/calendar.png" width="50" height="50"> | 3 dias              | Treino ABC                  |
-| <img src="../prompt-project/assets/calendar.png" width="50" height="50"> | 5 dias              | Treino ABCDE                |
+| **Imagem**                                                     | **Dias por Semana** | **Tipo de Treino Sugerido** |
+| -------------------------------------------------------------- | ------------------- | --------------------------- |
+| <img src=".github/assets/calendar.png" width="50" height="50"> | 1 dia               | Treino Full Body            |
+| <img src=".github/assets/calendar.png" width="50" height="50"> | 3 dias              | Treino ABC                  |
+| <img src=".github/assets/calendar.png" width="50" height="50"> | 5 dias              | Treino ABCDE                |
 
 - **Full Body**: Treino que trabalha o corpo todo em uma única sessão.
 - **ABC**: Divisão do treino em três dias, cada um focado em grupos musculares diferentes.
@@ -65,13 +65,13 @@ A segunda regra é determinar quantos dias por semana o usuário tem disponível
 
 A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
 
-| **Imagem**                                                                 | **Tipo de Treino** | **Descrição**                                                                                                 |
-| -------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------- |
-| <img src="../prompt-project/assets/dumbells.png" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
-| <img src="../prompt-project/assets/4760665.png" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
-| <img src="../prompt-project/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
-| <img src="../prompt-project/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
-| <img src="../prompt-project/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
+| **Imagem**                                                       | **Tipo de Treino** | **Descrição**                                                                                                 |
+| ---------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------- |
+| <img src=".github/assets/dumbells.png" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
+| <img src=".github/assets/4760665.png" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
+| <img src=".github/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
+| <img src=".github/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
+| <img src=".github/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
 
 ---
 
@@ -93,4 +93,4 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ---
 
-## 🎯 Prompt Proposto
+## 🎯 Prompt de Resposta Proposto
