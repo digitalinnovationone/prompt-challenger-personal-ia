@@ -25,8 +25,11 @@ Fórmula:
 IMC = Peso(Kg) / Altura(m)²
 
 IMC < 18,5: Abaixo do peso
+
 IMC entre 18,5 e 24,9: Peso normal
+
 IMC entre 25 e 29,9: Sobrepeso
+
 IMC > 30: Obesidade
 
 2. Faixa de Peso Saudável:
