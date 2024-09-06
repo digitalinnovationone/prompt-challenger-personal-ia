@@ -1,4 +1,3 @@
-
 Fiz algumas modificações no projeto original:
 * Inserção de 10 Personagens Ficticios  (5 masculino e 5 feminino)
 * Inserção de Altura e Peso aos personagens
