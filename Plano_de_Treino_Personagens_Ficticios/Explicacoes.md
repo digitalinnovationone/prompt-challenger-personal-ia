@@ -10,18 +10,19 @@ Aqui está um exemplo prático de como seria a implementação de um assistente 
 
 Como foi possivel de percerber ao observar os arquivos, o assistente foi além do Prompt, gerando uma rotina de treinos bem mais completa e complexa do que o material disponibilizado pela DIO no repositorio apresentava, este é o poder da IA em conjunto com um bom Prompt.
 
-Automação com IA e Engenharia de Prompt
+**Automação com IA e Engenharia de Prompt**
 O assistente de treino ideal usaria prompts como este para adaptar e gerar automaticamente as rotinas de treino de acordo com os dados fornecidos pelo usuário. Seguindo as regras de negócio:
 
 ## Métrica de Cálculo usada para determinar a necessidade de cada personagem
 
 A determinação de se os personagens precisavam ganhar ou perder peso foi baseada em um conceito comum de avaliação de saúde: o Índice de Massa Corporal (IMC) e o peso considerado saudável em relação à altura de cada personagem.
 
-1. Cálculo do IMC:
+1. **Cálculo do IMC:**
 
 O IMC é uma fórmula simples para avaliar se uma pessoa está em um peso saudável, abaixo do peso, ou acima do peso com base em sua altura e peso.
 
-Fórmula:
+**Fórmula:**
+
 IMC = Peso(Kg) / Altura(m)²
 
 IMC < 18,5: Abaixo do peso
@@ -32,7 +33,7 @@ IMC entre 25 e 29,9: Sobrepeso
 
 IMC > 30: Obesidade
 
-2. Faixa de Peso Saudável:
+2. **Faixa de Peso Saudável:**
 Com base na altura de cada personagem, podemos determinar a faixa de peso considerada saudável de acordo com o IMC normal (18,5 a 24,9). Para isso, eu fiz uma estimativa do peso ideal para cada personagem:
 
 Peso ideal mínimo: IMC 18,5
@@ -43,18 +44,22 @@ Peso ideal máximo: 24,9
 
 Peso ideal máx. = 24,9 * (Altura²)
 
-3. Comparação do Peso Atual com a Faixa Saudável:
+3. **Comparação do Peso Atual com a Faixa Saudável:**
 Com os valores de peso mínimo e máximo calculados para cada altura, eu comparei o peso atual do personagem para determinar se:
 
 Estava abaixo da faixa saudável (necessita ganhar peso).
+
 Estava acima da faixa saudável (necessita perder peso).
+
 Estava dentro da faixa saudável (manutenção do peso).
 
 Exemplo de Cálculo para Salete:
+
 Altura de Salete: 1,45m
+
 Peso atual: 37 kg
 
-Cálculo do IMC:
+**Cálculo do IMC:**
 
 IMC = 37 / 1,45² = 17,6
 
