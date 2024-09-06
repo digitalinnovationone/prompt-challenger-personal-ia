@@ -137,3 +137,5 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ## 🎯 Prompt de Resposta Proposto
 Baseado nas instruções acima, selecione os personagens ficticios, distribua os biotipos para cada um deles levando em consideração sua altura e peso, escolha conforme achar mais adequado, de forma aleatória direcione os dias de treino para cada um, após isso, selecione o treino que melhor se adequar ao seu biotipo e o tempo (em dias) disponivel. Gere uma rotina de treinos usando as regras acima para cada um, até que eles atijam o seu peso ideal, gere também uma rotina pra eles manterem o peso. Aqueles que já tiverem no seu peso ideal, não precisa gerar uma rotina de treinos intensos apenas uma rotina para manter o peso.
+
+https://chatgpt.com/share/8e7c2d37-b331-425a-9bcf-684f7be4a37b
