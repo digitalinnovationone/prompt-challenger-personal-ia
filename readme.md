@@ -19,6 +19,7 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 ## 📋 Índice
 
 - [📋 Índice](#-índice)
+- [👨‍👩‍👧‍👦 Personagens Ficticios](#-Personagens)
 - [📝 Introdução](#-introdução)
 - [💪 Biotipos Corporais](#-biotipos-corporais)
 - [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
@@ -34,6 +35,18 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
 
 ---
+## 👨‍👩‍👧‍👦 Personagens Ficticios 
+
+* Alberto (1.75 altura | 85 kg)
+* Ana (1.68 | 70)
+* Carlos (1.70 | 45)
+* Cristiane (1.72 | 85)
+* Eduardo (1.95 | 103)
+* Elaine (1.82 | 88)
+* Marcos (2.05 | 120)
+* Maria (1.52 | 49)
+* Silva (1,90 | 62)
+* Salete (1.45 | 37)
 
 ## 💪 Biotipos Corporais
 
@@ -104,10 +117,12 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ## 🛠️ Regras de negócio
 
-1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
-2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
-3. **Selecione o tipo de exercício** que prefere realizar e que se encaixa melhor nos seus objetivos.
-4. Use o prompt do assistente para gerar um plano de treino personalizado.
+1. **Escolha um Personagem** 
+2. **Direcione um biotipo corporal** para cada personagem escolhido.
+3. **Determine a quantidade dias por semana que cada persoangem pode treinar** e escolha o tipo de treino mais adequado para cada um.
+4. **Selecione o tipo de exercício** mais adequado para cumprir o objetivo de cada persoanagem.
+5. Use o prompt do assistente para gerar um plano de treino personalizado.
+6. 
 
 ---
 
@@ -121,3 +136,4 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+Baseado nas instruções acima, selecione os personagens ficticios, distribua os biotipos para cada um deles levando em consideração sua altura e peso, escolha conforme achar mais adequado, de forma aleatória direcione os dias de treino para cada um, após isso, selecione o treino que melhor se adequar ao seu biotipo e o tempo (em dias) disponivel. Gere uma rotina de treinos usando as regras acima para cada um, até que eles atijam o seu peso ideal, gere também uma rotina pra eles manterem o peso. Aqueles que já tiverem no seu peso ideal, não precisa gerar uma rotina de treinos intensos apenas uma rotina para manter o peso.
